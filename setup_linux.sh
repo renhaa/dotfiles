@@ -4,5 +4,9 @@ sudo apt upgrade
 sudo apt autoremove
 sudo apt autoclean
 
+sudo apt install curl python3-pip neofetch
+sudo apt install texlive texlive-bibtex-extra texlive-extra-utils
+pip3 install matplotlib sklearn numpy tensorflow jupyterlab
+
 sh install_vscode.sh
 
