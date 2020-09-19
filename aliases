@@ -1,0 +1,1 @@
+alias gitstore="git config credential.helper store"
