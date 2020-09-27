@@ -1,1 +1,4 @@
 alias gitstore="git config credential.helper store"
+alias gp="git pull"
+alias gpp="git push"
+

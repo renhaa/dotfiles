@@ -134,12 +134,12 @@ set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "tensorGAN"
-set $ws8 "BP"
-set $ws9 "ML2020"
-set $ws10 "Mail/PhD"
+set $ws5 "5 Litterature"
+set $ws6 "6 StudyPlan"
+set $ws7 "7 tensorGAN"
+set $ws8 "8 BP"
+set $ws9 "9 ML2020"
+set $ws10 "0 Mail/PhD"
 
 # switch to workspace
 
