@@ -1,1 +1,17 @@
-packages.microsoft.gpg
+# Latex
+*.toc
+*.bbl
+*.dvi
+*.out
+*.blg
+*.log
+*.aux
+*.pdfsync
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+*.pdf
+
+# Cpython
+*.pyc
