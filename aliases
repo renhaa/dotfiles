@@ -1,6 +1,8 @@
 alias gitstore="git config credential.helper store"
 alias gp="git pull"
-alias gpp="git commit -a && git push"
+alias gpp="git pull && git commit -a && git push"
 alias gs="git status"
 alias git_undo_commit="git reset --soft HEAD~1"
 alias texclean="rm -f *.synctex.gz *.brf *.bbl *.blg *.out *.aux *.log *.fls *.sta *.log *.fdb_latexmk *.toc  2>/dev/null"
+
+alias ituvpn="sudo ~/openfortivpn/openfortivpn sslvpn.itu.dk:443 --trusted-cert 93a93741a75688318f9f15590f9a3b2790a617ce4394c925e723cca6c1418aa9 --username=renha --realm=ITU"
