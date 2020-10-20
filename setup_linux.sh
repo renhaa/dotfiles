@@ -6,7 +6,7 @@ sudo apt autoclean
 
 
 
-sudo apt install i3 
+sudo apt install i3 cmake
 sudo apt install latexmk 
 sudo apt install libcurl4-openssl-dev libssl-dev pkg-config
 sudo apt install curl python3-pip neofetch pavucontrol
