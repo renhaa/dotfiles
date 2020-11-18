@@ -22,7 +22,7 @@ bindsym $mod+x exec systemctl suspend | i3lock -f -c 000000
 
 bindsym $mod+Shift+w exec firefox 
 bindsym $mod+Shift+f exec pcmanfm
-bindsym $mod+Shift+a exec atom
+bindsym $mod+Shift+a exec code
 bindsym $mod+Shift+e exec geany
 # start up apps
 
