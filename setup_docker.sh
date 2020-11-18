@@ -22,3 +22,7 @@ sudo add-apt-repository \
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 sudo docker run hello-world
+
+echo "[INFO Adding renha to docker group]"
+sudo groupadd docker
+sudo usermod -aG docker renha
