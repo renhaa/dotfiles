@@ -1,0 +1,49 @@
+\documentclass[a4paper,%            A4 paper size
+               aps,%                Document gets APS layout
+               prl,%                more layout, section numbering is removed
+               amsfonts,%           load AMS fonts
+               amssymb,%            load more AMS symboler
+               amsmath,%            load AMS math (align environment and so on...)
+               nobibnotes,%         If BibTex is not used, REVTeX should be told to use normal footnotes
+               twocolumn, %         two-column layout
+               twoside,%            to-sided print
+               balancelastpage,%    balancing the last page when using two columns
+               eqsecnum] %          numbering the aligns with the sectionnumber
+               {revtex4-1}
+\usepackage[utf8]{inputenc} %       Correct formatting, makes danish letters available
+\usepackage[english]{babel} %       Language
+
+% Place all outher packages you use here i.e. graphicx, subfiles...
+% \usepackage{amsmath, amssymb}
+% \usepackage{url}
+% \usepackage{wrapfig}
+% \usepackage{subfiles}
+% \usepackage[squaren]{SIunits}
+% \usepackage[normalem]{ulem}
+\usepackage{subfigure}
+% \usepackage{lipsum}
+\usepackage{todonotes}
+\usepackage{caption}
+\captionsetup{labelfont={footnotesize,bf},textfont=footnotesize,format=hang,indention=-0.5cm} %makes nicer indents
+
+
+\begin{document}                                % Starts the actual document
+\selectlanguage{english}
+
+\title{Phd Projoject} % Title of the document, \\ can be used to generate linebreaks
+
+
+\author{René Haas}
+\affiliation{IT University of Copenhagen}   % The authors affiliation
+
+
+
+\maketitle 
+
+\setcounter{section}{1} 
+
+\section{Introduction}
+
+ 
+\end{document}  
+
